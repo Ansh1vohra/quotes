@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(0.33turn, #add8e6, #dfffeb, #e5ffdf, #add8e6);
+  background-size: 400% 400%;
+  animation: GradientBackground 25s ease infinite;
+}
+
+@keyframes GradientBackground { 
+  0%   { background-position: 0%   50%; } 
+  50%  { background-position: 100% 50%; } 
+  100% { background-position: 0%   50%; } 
 }
 
 code {
